@@ -1,0 +1,359 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 2rem;
+    background-color: #000;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+.contenedor {
+    max-width: 140rem;
+    margin: 0 auto;
+}
+
+
+/**Header**/
+
+.contenedor-header-index {
+    background-image: url(https://www.aiononline.com/uploads/aion/home-featured-top/img/210215-AN-Hero-Preview-Minions.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    height: 100vh;
+}
+
+.contenedor-nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left, rgba(0, 0, 0, .5), #000);
+    margin-top: 2rem;
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-principal a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 3rem 3rem;
+}
+
+.nav-principal a:hover {
+    background-color: rgb(77, 102, 172);
+}
+
+.nav-principal img {
+    width: 15rem;
+    height: 5rem;
+    margin-left: 5rem;
+    padding-right: 2rem;
+}
+
+.play-free {
+    text-transform: uppercase;
+}
+
+.play-free a:last-of-type {
+    background: linear-gradient(to right, rgb(70, 171, 230), rgb(41, 43, 131));
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 3rem 7rem;
+}
+
+.play-free a:last-of-type:hover {
+    background: linear-gradient(to right, rgb(124, 195, 236), rgb(41, 43, 131));
+}
+
+
+/**Anuncio header**/
+
+.contenedor-anuncio-header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0;
+}
+
+.contenedor-anuncio-header h2,
+.contenedor-anuncio-header p,
+.contenedor-anuncio-header a {
+    color: #fff;
+}
+
+.contenedor-anuncio-header h2 {
+    font-size: 7rem;
+    margin: 3rem 0;
+}
+
+.contenedor-anuncio-header h2:hover {
+    text-shadow: .2rem .2rem .4rem #000;
+}
+
+.contenedor-anuncio-header p {
+    font-size: 1.8rem;
+    margin-bottom: 5rem;
+}
+
+.contenedor-anuncio-header p:hover {
+    text-shadow: .2rem .2rem .4rem #000;
+}
+
+.contenedor-anuncio-header a {
+    text-decoration: none;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    padding: 2.3rem 1rem;
+    border: solid .1rem #fff;
+    border-radius: .5rem;
+    width: 15rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.contenedor-anuncio-header a:hover {
+    border-color: rgb(77, 102, 172);
+    background-color: rgb(77, 102, 172);
+}
+
+
+/**Anuncios**/
+
+.contenedor-anuncio-section {
+    margin-top: -7rem;
+    margin-bottom: 15rem;
+}
+
+.contenedor-anuncio-section2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-anuncio-section p {
+    color: #fff;
+    margin-top: 0;
+}
+
+.contenido-anuncio {
+    transition: .3s;
+}
+
+.contenido-anuncio:hover {
+    transform: translateY(-1rem);
+}
+
+.contenido-anuncio img {
+    width: 33.4rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    height: 21.1rem;
+    transition: .3s;
+}
+
+.contenido-anuncio img:hover {
+    border-bottom: solid .5rem purple;
+}
+
+.contenido-info-anuncio {
+    transition: .3s;
+    padding: 1rem;
+}
+
+.contenido-info-anuncio:hover {
+    border-top: solid .5rem purple;
+    background-color: rgba(43, 42, 42, .7);
+    border-radius: .5rem;
+}
+
+.contenido-info-anuncio p {
+    margin-top: 2rem;
+}
+
+.contenido-info-anuncio h3 {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-top: 0;
+    max-width: 25rem;
+    line-height: 1.2;
+}
+
+
+/**Imagen Grande**/
+
+.imagen-grande {
+    background-image: url(https://www.aiononline.com/images/desktop/home/content-update/AN7.5-SOB-home-video-section-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.imagen-grande-overlay {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
+    position: absolute;
+}
+
+.contenido-imagen-grande {
+    max-width: 120rem;
+    margin: 0 auto;
+    height: 90%;
+}
+
+.contenido-imagen-grande h2,
+.contenido-imagen-grande h3,
+.contenido-imagen-grande p {
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+}
+
+.contenido-imagen-grande h2 {
+    margin-bottom: 2rem;
+    font-size: 6rem;
+}
+
+.contenido-imagen-grande h3 {
+    margin-bottom: 2rem;
+}
+
+.imagen-logo {
+    text-align: center;
+}
+
+.imagen-logo img {
+    width: 62.7rem;
+}
+
+
+/**Seccion cuadrados**/
+
+.contenedor-seccion-cuadrados {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    max-width: 145rem;
+    margin: 20rem auto;
+}
+
+.contenido-seccion-cuadrados {
+    background-image: url(https://www.aiononline.com/uploads/aion/articles/hero/200831-AN-News-Header-Experience-Boost-Week.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: .5rem;
+    padding: 3rem;
+    width: 70rem;
+    height: 45rem;
+}
+
+.contenido-seccion-cuadrados p,
+.contenido-seccion-cuadrados2 p,
+.contenido-seccion-cuadrados3 p,
+.contenido-seccion-cuadrados4 p {
+    margin-bottom: 5rem;
+}
+
+.contenido-seccion-cuadrados2 {
+    background-image: url(https://www.aiononline.com/uploads/aion/articles/hero/200902-AN-News-Header-Instance-Boost.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: .5rem;
+    padding: 3rem;
+    width: 70rem;
+    height: 45rem;
+    transition: .3s;
+}
+
+.contenido-seccion-cuadrados3 {
+    background-image: url(https://www.aiononline.com/uploads/aion/articles/hero/200902-AN-News-Header-Instance-Boost.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: .5rem;
+    padding: 3rem;
+    width: 70rem;
+    height: 45rem;
+    transition: .3s;
+}
+
+.contenido-seccion-cuadrados4 {
+    background-image: url(https://www.aiononline.com/uploads/aion/articles/hero/200902-AN-News-Header-Instance-Boost.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: .5rem;
+    padding: 3rem;
+    width: 70rem;
+    height: 45rem;
+    transition: .3s;
+}
+
+.contenido-seccion-absolute {
+    position: absolute;
+    border-radius: .5rem;
+    width: 70rem;
+    height: 45rem;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .3));
+    padding-top: 20rem;
+    padding-left: 5rem;
+}
+
+.contenido-seccion-absolute a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    padding: 1.3rem 1rem;
+    border: solid .1rem #fff;
+    border-radius: .5rem;
+    width: 15rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.contenido-seccion-absolute a:hover {
+    border-color: rgb(77, 102, 172);
+    background-color: rgb(77, 102, 172);
+}
+
+.contenido-seccion-absolute:hover {
+    background: linear-gradient(230deg, rgba(183, 158, 112, .5), rgba(253, 253, 253, 0.1));
+}
